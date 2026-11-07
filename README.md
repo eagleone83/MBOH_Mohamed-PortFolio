@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/photo.png" alt="M'BOH Mohamed" width="300"/>
+<img src="assets/photo.png" alt="M'BOH Mohamed" width="100"/>
 
 # M'BOH Mohamed
 
