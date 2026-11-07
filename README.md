@@ -122,4 +122,4 @@ Protéger ces systèmes, c'est protéger la continuité des services et la confi
 
 <sub>[1] INTERPOL, *Africa Cyberthreat Assessment Report 2025*, juin 2025 — [interpol.int](https://www.interpol.int/News-and-Events/News/2025/New-INTERPOL-report-warns-of-sharp-rise-in-African-cybercrime)</sub>
 
-<div align="center"><sub>Les rapports sont publiés à des fins pédagogiques. Les environnements décrits sont des laboratoires isolés.</sub></div>
+<div align="center"><sub>Les rapports sont publiés à des fins pédagogiques. Les environnements décrits sont des laboratoires isolés.M'BOH MOHAMED copyright</sub></div>
