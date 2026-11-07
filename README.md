@@ -13,7 +13,7 @@ Licence 3 Informatique & Cybersécurité — Groupe ISM Dakar
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-005f87)
 ![Sigma](https://img.shields.io/badge/Sigma-YARA-444)
 
-[LinkedIn](https://www.linkedin.com/in/m-boh-mohamed-343684330) · [Email](mailto:med.guest740@gmail.com) · [Rapports](reports/) · [Articles](#-articles)
+[LinkedIn](https://www.linkedin.com/in/m-boh-mohamed-343684330) · [Email](mailto:med.guest740@gmail.com) · [Rapports](rapport/) · [Articles](#-articles)
 
 </div>
 
@@ -79,24 +79,24 @@ Protéger ces systèmes, c'est protéger la continuité des services et la confi
 
 | Projet | Contenu | Outils | Rapport |
 |---|---|---|---|
-| **Lab — Analyse de logiciel malveillant** | Analyse statique et dynamique d'un échantillon ELF en laboratoire isolé : dépôt de fichier, balise C2, persistance `@reboot`, processus résident. Production d'IOC, cartographie ATT&CK et règle YARA testée. | YARA, INetSim, ATT&CK | [PDF](reports/Lab_Analyse_Malware.pdf) |
-| **Lab — Ingénierie de détection et chasse aux menaces** | Cycle complet : cartographie ATT&CK, règles Sigma (création de compte Linux, PowerShell encodé), règles YARA fichier + mémoire (faux positif corrigé en V2), chasse (3 artefacts : cron, SUID, compte backdoor), IOC. | Sigma, YARA, Hayabusa, Auditd, MISP | [PDF](reports/Lab_Ingenierie_de_detection.pdf) |
-| **Détection d'intrusions par Machine Learning** *(projet de groupe)* | Comparaison de 5 modèles de classification sur un jeu de données d'intrusions : EDA, prétraitement, GridSearch, validation croisée. **Meilleur modèle : Random Forest, F1 = 0,96.** | Python, scikit-learn | [PDF](reports/ML_Detection_Intrusions.pdf) |
+| **Lab — Analyse de logiciel malveillant** | Analyse statique et dynamique d'un échantillon ELF en laboratoire isolé : dépôt de fichier, balise C2, persistance `@reboot`, processus résident. Production d'IOC, cartographie ATT&CK et règle YARA testée. | YARA, INetSim, ATT&CK | [PDF](rapport/Lab_Analyse_Malware.pdf) |
+| **Lab — Ingénierie de détection et chasse aux menaces** | Cycle complet : cartographie ATT&CK, règles Sigma (création de compte Linux, PowerShell encodé), règles YARA fichier + mémoire (faux positif corrigé en V2), chasse (3 artefacts : cron, SUID, compte backdoor), IOC. | Sigma, YARA, Hayabusa, Auditd, MISP | [PDF](rapport/Lab_Ingenierie_de_detection.pdf) |
+| **Détection d'intrusions par Machine Learning** *(projet de groupe)* | Comparaison de 5 modèles de classification sur un jeu de données d'intrusions : EDA, prétraitement, GridSearch, validation croisée. **Meilleur modèle : Random Forest, F1 = 0,96.** | Python, scikit-learn | [PDF](rapport/ML_Detection_Intrusions.pdf) |
 
 ### Sécurité des systèmes et des réseaux
 
 | Projet | Contenu | Outils | Rapport |
 |---|---|---|---|
-| **Lab — Isolation et confinement avancés** | Confinement de services conteneurisés : capabilities, filtrage seccomp, namespaces/cgroups, AppArmor, durcissement Docker, scan d'images, démonstration défensive d'évasion, détection à l'exécution. | Docker, seccomp, AppArmor, Trivy, Falco | [PDF](reports/Lab_Isolation_Confinement.pdf) |
-| **Active Directory sécurisé et administré en PowerShell** | Domaine `MedAD.local` : OU, groupes (RBAC), politique de mot de passe granulaire (FGPP), audit par GPO, administration et audit exclusivement en PowerShell. | Windows Server 2022, PowerShell, GPO | [PDF](reports/Active_Directory_PowerShell.pdf) |
-| **Filtrage avancé et NAT sur pfSense** | Alias, règles LAN ordonnées avec deny-all explicite et journalisation, suppression de la règle « allow all », Outbound NAT (Hybrid) et Port Forward vers un serveur web interne. | pfSense | [PDF](reports/pfSense_Filtrage_NAT.pdf) |
+| **Lab — Isolation et confinement avancés** | Confinement de services conteneurisés : capabilities, filtrage seccomp, namespaces/cgroups, AppArmor, durcissement Docker, scan d'images, démonstration défensive d'évasion, détection à l'exécution. | Docker, seccomp, AppArmor, Trivy, Falco | [PDF](rapport/Lab_Isolation_Confinement.pdf) |
+| **Active Directory sécurisé et administré en PowerShell** | Domaine `MedAD.local` : OU, groupes (RBAC), politique de mot de passe granulaire (FGPP), audit par GPO, administration et audit exclusivement en PowerShell. | Windows Server 2022, PowerShell, GPO | [PDF](rapport/Active_Directory_PowerShell.pdf) |
+| **Filtrage avancé et NAT sur pfSense** | Alias, règles LAN ordonnées avec deny-all explicite et journalisation, suppression de la règle « allow all », Outbound NAT (Hybrid) et Port Forward vers un serveur web interne. | pfSense | [PDF](rapport/pfSense_Filtrage_NAT.pdf) |
 | **Architecture réseau sécurisée et segmentée** *(stage Moov Mauritel)* | FortiGate, politiques de sécurité, postes clients, contrôleur de domaine Active Directory. | FortiGate, AD DS, VMware | Sur demande |
 
 ### DevOps et développement
 
 | Projet | Contenu | Outils | Rapport |
 |---|---|---|---|
-| **Pipeline DevOps CI/CD complet** | Chaîne de bout en bout : GitHub → Jenkins (pipeline déclaratif) → Docker/DockerHub, analyse qualité et supervision. | Jenkins, Docker, SonarQube, Prometheus, Grafana | [PDF](reports/DevOps_Pipeline_CICD.pdf) |
+| **Pipeline DevOps CI/CD complet** | Chaîne de bout en bout : GitHub → Jenkins (pipeline déclaratif) → Docker/DockerHub, analyse qualité et supervision. | Jenkins, Docker, SonarQube, Prometheus, Grafana | [PDF](rapport/DevOps_Pipeline_CICD.pdf) |
 | **Plateforme de comptabilité automatisée pour PME** *(hackathon, volet cybersécurité)* | Plateforme open-source modulaire (OCR + Random Forest, rapprochement bancaire, budget prévisionnel, états OHADA). Mon volet : sécurité et chiffrement des données financières. | Python, Streamlit, Fernet, Prophet | Sur demande |
 
 ---
