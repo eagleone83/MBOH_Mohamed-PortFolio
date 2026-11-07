@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/photo.jpg" alt="M'BOH Mohamed" width="150"/>
+<img src="assets/assets/WhatsApp Image 2026-11-07 at 19.56.22.jpeg" alt="M'BOH Mohamed" width="150"/>
 
 # M'BOH Mohamed
 
