@@ -4,7 +4,7 @@
 
 # M'BOH Mohamed
 
-**Sécurité réseau & systèmes · Blue Team · Détection & durcissement**
+**Sécurité réseau & systèmes · Technicien support Informatique · Détection & durcissement**
 
 Licence 3 Informatique & Cybersécurité — Groupe ISM Dakar
 
